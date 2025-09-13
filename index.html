@@ -106,20 +106,6 @@
 
   <!-- JS for Theme Toggle + Scroll Animations -->
   <script>
-    // Dark/Light theme toggle
-    const toggleBtn = document.getElementById('theme-toggle');
-    const body = document.body;
-    toggleBtn.addEventListener('click', () => {
-      body.classList.toggle('bg-white');
-      body.classList.toggle('text-gray-900');
-      body.classList.toggle('bg-gradient-to-r');
-      if (toggleBtn.textContent === "☀️") {
-        toggleBtn.textContent = "🌙";
-      } else {
-        toggleBtn.textContent = "☀️";
-      }
-    });
-
     // ScrollReveal animations
     ScrollReveal().reveal('section', {
       duration: 1000,
